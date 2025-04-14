@@ -1,20 +1,21 @@
-// //CREATE TABLE users (
-//     id INT AUTO_INCREMENT PRIMARY KEY,
-//     username VARCHAR(50) NOT NULL UNIQUE,
-//     password VARCHAR(255) NOT NULL
-// );
-// CREATE TABLE products (
-//     id INT AUTO_INCREMENT PRIMARY KEY,
-//     name VARCHAR(100) NOT NULL,
-//     price FLOAT NOT NULL,
-//     quantity INT NOT NULL
-// );
-// CREATE TABLE product_images (
-//     id INT AUTO_INCREMENT PRIMARY KEY,
-//     product_id INT,
-//     image_path VARCHAR(255),
-//     FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
-// );
+<!-- CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    price FLOAT NOT NULL,
+    quantity INT NOT NULL
+);
+CREATE TABLE product_images (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    product_id INT,
+    image_path VARCHAR(255),
+    FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
+); -->
+
 
 <?php
 session_start();
